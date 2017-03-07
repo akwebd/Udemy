@@ -1,0 +1,16 @@
+.youtube-outline, .youtube-icon, .youtube-inner-circle {
+    transition: 300ms all;
+    transform-origin: 50% 50%;
+}
+
+.youtube-icon-group:hover .youtube-outline {
+    transform: scale(1.2);
+}
+
+.youtube-icon-group:hover .youtube-inner-circle {
+    fill: #f26768;  
+}
+
+.youtube-icon-group:hover .youtube-icon {
+    stroke: #fff;  
+}
